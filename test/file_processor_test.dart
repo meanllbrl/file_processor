@@ -41,7 +41,6 @@ void main() {
           int size = value.lengthSync();
           expect(size, 0.2 * 1024 * 1024);
         });
-       
       });
     });
   });
