@@ -19,7 +19,9 @@ File Processor is a Dart package designed to process files, including uploading 
 
 To use this package, add 
 ```yaml
-
+  file_processor:
+    git:
+      url: https://github.com/meanllbrl/file_processor.git
 ```
 as a dependency in your `pubspec.yaml` file.
 
