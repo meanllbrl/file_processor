@@ -60,13 +60,13 @@ final processor = FileProcessor(
 
 ## Examples
 
-# Picking a Sinlge File
+### Picking a Sinlge File
 
 ```dart
 final file = await FileProcessor.getFile();
 ```
 
-# Uploading a File to Firebase
+### Uploading a File to Firebase
 
 ```dart
 final file = await FileProcessor.getFile();
@@ -74,7 +74,7 @@ final downloadUrl = await processor.uploadFiletoFirebase(file);
 print('File uploaded successfully. Download URL: $downloadUrl');
 ```
 
-# Compressing a File
+### Compressing a File
 
 ```dart
 final file = await FileProcessor.getFile();
